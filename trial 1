@@ -1,0 +1,31 @@
+Start 
+	Declarations 
+		numList = []
+		totalNum = ("num 0 to 19")
+		numSize = ("20")
+		findSum = ("sum = sum + num")
+		findAver = ("sum = sum + num")
+		findDiff = ("sum = sum / totalNum ")
+Housekeeping()
+		for
+			input = ("1 to numSize") Do 
+			enter input Do
+			store input in numList 
+    endFor 
+	return
+		for 
+			each num in numList Do 
+			findSum
+		endFor 
+	return 
+		for 
+			each num in numList Do
+			findDiff
+	return
+		for 
+			each num Do 
+			findAver
+Display() 
+		"num" : "+ num" "+ findDiff from findAve" : "+ findDiff"
+		endfor 
+Stop
